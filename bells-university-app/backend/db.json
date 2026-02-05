@@ -1,0 +1,123 @@
+{
+  "schoolInfo": {
+    "chancellor": {
+      "name": "Dr. Olusola Oyewole",
+      "bio": "Dr. Olusola Oyewole is a distinguished academic and the Chancellor of Bells University of Technology. With over 30 years of experience in higher education, he has been instrumental in shaping the university's vision and fostering partnerships with industry leaders."
+    },
+    "vc": {
+      "name": "Prof. Isaac Adebayo Adeyemi",
+      "bio": "Prof. Isaac Adebayo Adeyemi serves as the Vice Chancellor of Bells University of Technology. He is a renowned expert in engineering and technology, dedicated to advancing research and innovation in Nigeria's technological landscape."
+    },
+    "staff": [
+      {
+        "title": "Registrar",
+        "name": "Dr. Adebayo Adeyemi",
+        "bio": "Dr. Adebayo Adeyemi is the Registrar of Bells University of Technology, overseeing academic affairs and student services."
+      },
+      {
+        "title": "Dean of Engineering",
+        "name": "Prof. Olufemi Adebayo",
+        "bio": "Prof. Olufemi Adebayo leads the Faculty of Engineering, promoting cutting-edge research in mechanical, electrical, and computer engineering."
+      },
+      {
+        "title": "Dean of Management Sciences",
+        "name": "Dr. Grace Okafor",
+        "bio": "Dr. Grace Okafor heads the Faculty of Management Sciences, focusing on business education and entrepreneurship development."
+      }
+    ]
+  },
+  "locations": [
+    {
+      "id": 1,
+      "name": "Main Administration Building",
+      "description": "The central hub for university administration, housing offices for the Chancellor, Vice Chancellor, and key administrative staff.",
+      "category": "Administrative",
+      "lat": 6.698,
+      "lng": 3.259
+    },
+    {
+      "id": 2,
+      "name": "Engineering Faculty Building",
+      "description": "State-of-the-art facilities for engineering programs, including laboratories for mechanical, electrical, and computer engineering.",
+      "category": "Academic",
+      "lat": 6.699,
+      "lng": 3.26
+    },
+    {
+      "id": 3,
+      "name": "Library",
+      "description": "A modern library with extensive collections of books, journals, and digital resources supporting research and learning.",
+      "category": "Academic",
+      "lat": 6.697,
+      "lng": 3.258
+    },
+    {
+      "id": 4,
+      "name": "Student Center",
+      "description": "A vibrant space for student activities, including cafeterias, recreational areas, and student organization offices.",
+      "category": "Student Facilities",
+      "lat": 6.7,
+      "lng": 3.261
+    },
+    {
+      "id": 5,
+      "name": "Sports Complex",
+      "description": "Comprehensive sports facilities including basketball courts, football fields, and fitness centers.",
+      "category": "Recreational",
+      "lat": 6.696,
+      "lng": 3.257
+    }
+  ],
+  "businesses": [
+    {
+      "id": 1,
+      "name": "Campus Bookstore",
+      "description": "Your one-stop shop for textbooks, stationery, and university merchandise. We offer competitive prices and a wide selection of academic materials.",
+      "image": "/uploads/bookstore.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Tech Hub Cafe",
+      "description": "A cozy cafe serving coffee, snacks, and meals. Perfect for studying or relaxing between classes, with free Wi-Fi and charging stations.",
+      "image": "/uploads/cafe.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Fitness Center",
+      "description": "A state-of-the-art fitness center offering gym equipment, personal training, and wellness programs to promote a healthy lifestyle for students and staff.",
+      "image": "/uploads/fitness.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Skin + Me",
+      "description": "Skin + Me is officially here! 🩵✨ We believe skincare and selfcare should be intentional and tailored to you Looking for a Valentine gift that feels thoughtful? Look no further! Our valentine packages are curated with self care essentials 💝💌 Whether you’re gifting someone special or choosing yourself, Skin + Me is about care that actually makes sense 😌🤏 Preorders close on the 7th of February ⏳ Limited packages available! Click the link below to order: https://wa.me/09076803391?text=Hi%2C%20I'm%20interested%20in%20your%20product",
+      "image": "/uploads/skinme.jpg"
+    }
+  ],
+  "news": [
+    {
+      "id": 1,
+      "title": "Bells University Launches New AI Research Center",
+      "content": "Bells University of Technology has officially launched its new Artificial Intelligence Research Center. The center will focus on cutting-edge AI research and collaboration with industry partners to drive technological innovation in Nigeria.",
+      "date": "2024-01-15"
+    },
+    {
+      "id": 2,
+      "title": "Graduation Ceremony 2024: Celebrating Our Graduates",
+      "content": "Over 500 students graduated from Bells University this year, marking another successful year of academic excellence. The ceremony featured keynote speeches from industry leaders and a celebration of student achievements.",
+      "date": "2024-01-10"
+    },
+    {
+      "id": 3,
+      "title": "New Partnership with Tech Giant",
+      "content": "Bells University has entered into a strategic partnership with a leading technology company to enhance our computer science curriculum and provide students with real-world industry experience.",
+      "date": "2024-01-05"
+    }
+  ],
+  "admins": [
+    {
+      "username": "admin",
+      "passcode": "1111"
+    }
+  ]
+}
