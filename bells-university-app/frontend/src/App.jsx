@@ -9,6 +9,14 @@ import BusinessAffiliatesPage from './components/BusinessAffiliatesPage';
 import NewsPage from './components/NewsPage';
 import AdminPage from './components/AdminPage';
 
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
+
+export const getLocations = async () => {
+  const res = await fetch(`${API_BASE_URL}/api/locations`);
+  return res.json();
+};
+
+
 function App() {
   useEffect(() => {
     window.scrollTo(0, 0);
