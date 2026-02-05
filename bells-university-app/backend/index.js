@@ -155,7 +155,7 @@ await db.read();
 await db.write();
 
 // Middleware
-app.use(cors({origin: 'https://unity-hub-7.onrender.com'}));
+app.use(cors({origin: 'https://unity-hub-8.onrender.com'}));
 app.use(express.json()); // for parsing application/json
 
 // Serve static files from uploads directory
