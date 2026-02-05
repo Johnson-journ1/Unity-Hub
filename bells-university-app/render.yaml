@@ -7,3 +7,5 @@ services:
     envVars:
       - key: NODE_ENV
         value: production
+      - key: ADMIN_PASSCODE
+        value: "1111"

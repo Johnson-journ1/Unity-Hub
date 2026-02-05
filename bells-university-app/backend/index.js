@@ -146,7 +146,7 @@ const defaultData = {
             date: "2024-01-01"
         }
     ],
-    admins: [{ username: "admin", passcode: "1111" }]
+    admins: [{ username: "admin", passcode: process.env.ADMIN_PASSCODE || "1111" }]
 };
 const db = new Low(adapter, defaultData);
 
