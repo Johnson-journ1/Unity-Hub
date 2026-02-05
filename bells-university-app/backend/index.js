@@ -335,7 +335,7 @@ app.get('/', (req, res) => {
 
 // Catch all handler: send back React's index.html file for client-side routing (only in production)
 if (process.env.NODE_ENV === 'production') {
-    app.get('/*', (req, res) => {
+    app.get(/.*/, (req, res) => {
         res.sendFile(path.join(__dirname, '../frontend-vite/dist/index.html'));
     });
 }
