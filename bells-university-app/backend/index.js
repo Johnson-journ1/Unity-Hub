@@ -161,8 +161,10 @@ app.use(express.json()); // for parsing application/json
 // Serve static files from uploads directory
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
-// Serve static files from the React app build directory
-app.use(express.static(path.join(__dirname, '../frontend/dist')));
+// Serve static files from the React app build directory (only in production)
+if (process.env.NODE_ENV === 'production') {
+    app.use(express.static(path.join(__dirname, '../frontend-vite/dist')));
+}
 
 // Configure multer for file uploads
 const storage = multer.diskStorage({
@@ -331,10 +333,12 @@ app.get('/', (req, res) => {
     res.send('Bells University Backend API is running!');
 });
 
-// Catch all handler: send back React's index.html file for client-side routing
-app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, '../frontend/dist/index.html'));
-});
+// Catch all handler: send back React's index.html file for client-side routing (only in production)
+if (process.env.NODE_ENV === 'production') {
+    app.get('*', (req, res) => {
+        res.sendFile(path.join(__dirname, '../frontend-vite/dist/index.html'));
+    });
+}
 
 // Start the server
 app.listen(PORT, () => {
